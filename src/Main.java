@@ -13,6 +13,6 @@ public class Main {
         int itogSchet = nachalnSchet + popolnenie + bonus;
 
         System.out.println("Итого на счете: " + itogSchet);
-        System.out.println("ачислено бонусов: " + bonus);
+        System.out.println("Начислено бонусов: " + bonus);
     }
 }
