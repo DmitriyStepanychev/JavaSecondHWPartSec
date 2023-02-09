@@ -5,11 +5,9 @@ public class Main {
         int nachalnSchet = 100;
         int popolnenie = 600;
         int bonus;
-        if (popolnenie >= 1000)
-        {
+        if (popolnenie >= 1000) {
             bonus = popolnenie / 100;
-        }
-        else bonus = 0;
+        } else bonus = 0;
         int itogSchet = nachalnSchet + popolnenie + bonus;
 
         System.out.println("Итого на счете: " + itogSchet);
